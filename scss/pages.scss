@@ -1,0 +1,94 @@
+.section{
+    padding: 40px;
+    h2{
+        color: $color-principal;
+    }
+}
+
+.formulario-contacto {
+
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+
+    .form-control {
+
+        &:focus {
+            border-color: $color-principal;
+
+            box-shadow: 0 0 5px $color-principal;
+        }
+    }
+
+    .btn {
+
+        background-color: $color-principal;
+        border: none;
+        transition: 0.3s;
+
+        &:hover {
+            background-color: black;
+        }
+    }
+}
+
+.imagen-nosotros {
+
+    transition: transform 0.5s;
+
+    &:hover {
+        transform: scale(1.03);
+    }
+}
+
+.info-card {
+
+    @include card-style;
+    @extend %card-base;
+
+   
+    padding: 30px;
+
+    transition: transform 0.3s;
+
+    &:hover {
+        transform: translateY(-10px);
+    }
+
+    h3 {
+        color: $color-principal;
+    }
+      
+}
+
+.sucursal-card {
+
+    @include card-style;
+    @extend %card-base;
+    
+    
+    overflow: hidden;
+    
+    transition: transform 0.3s;
+
+    img {
+        height: 300px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    &:hover {
+        transform: translateY(-10px);
+    }
+
+    h2 {
+        color: $color-principal;
+    }
+    
+}
+
+%card-base {
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+}

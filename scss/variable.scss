@@ -1,0 +1,9 @@
+$color-principal: #e91e63;
+$color-secundario: #333;
+$color-fondo:  #f8f8f8;
+
+@mixin card-style {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+}

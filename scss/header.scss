@@ -1,0 +1,12 @@
+header{
+    background-color: $color-principal;
+    .navbar{
+        a{
+            color:white;
+            margin:0 10px;
+            &:hover{
+                color:black;
+            }
+        }
+    }
+}

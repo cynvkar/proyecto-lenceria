@@ -1,0 +1,10 @@
+@import "variable";
+@import "header";
+@import "footer";
+@import "home";
+@import "pages";
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: $color-fondo;
+}

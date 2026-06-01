@@ -1,0 +1,40 @@
+.footer {
+    background-color: $color-secundario;
+    color: white;
+    padding: 40px 0 10px;
+
+    h3 {
+        color: $color-principal;
+        margin-bottom: 15px;
+    }
+
+    p {
+        margin: 5px 0;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+
+        li {
+            margin-bottom: 8px;
+
+            a {
+                color: white;
+                text-decoration: none;
+                transition: color 0.3s;
+
+                &:hover {
+                    color: $color-principal;
+                }
+            }
+        }
+    }
+
+    .footer-copy {
+        border-top: 1px solid rgba(255,255,255,0.2);
+        margin-top: 25px;
+        padding-top: 15px;
+        font-size: 0.9rem;
+    }
+}

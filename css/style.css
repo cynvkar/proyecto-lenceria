@@ -1,0 +1,168 @@
+header {
+  background-color: #e91e63;
+}
+header .navbar a {
+  color: white;
+  margin: 0 10px;
+}
+header .navbar a:hover {
+  color: black;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 40px 0 10px;
+}
+.footer h3 {
+  color: #e91e63;
+  margin-bottom: 15px;
+}
+.footer p {
+  margin: 5px 0;
+}
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+.footer ul li {
+  margin-bottom: 8px;
+}
+.footer ul li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+.footer ul li a:hover {
+  color: #e91e63;
+}
+.footer .footer-copy {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  margin-top: 25px;
+  padding-top: 15px;
+  font-size: 0.9rem;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px;
+  transition: transform 0.5s;
+  background-color: pink;
+}
+.hero h1 {
+  font-size: 2.5rem;
+  color: #e91e63;
+}
+.hero:hover {
+  transform: scale(1.05);
+}
+.hero p {
+  font-size: 1.2rem;
+}
+
+.producto-card {
+  transition: transform 0.3s;
+  border: none;
+  overflow: hidden;
+}
+.producto-card img {
+  height: 400px;
+  object-fit: cover;
+}
+.producto-card:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 20px;
+  }
+}
+.carousel-img {
+  height: 320px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .carousel-img {
+    height: 250px;
+  }
+}
+.section {
+  padding: 40px;
+}
+.section h2 {
+  color: #e91e63;
+}
+
+.formulario-contacto {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+.formulario-contacto .form-control:focus {
+  border-color: #e91e63;
+  box-shadow: 0 0 5px #e91e63;
+}
+.formulario-contacto .btn {
+  background-color: #e91e63;
+  border: none;
+  transition: 0.3s;
+}
+.formulario-contacto .btn:hover {
+  background-color: black;
+}
+
+.imagen-nosotros {
+  transition: transform 0.5s;
+}
+.imagen-nosotros:hover {
+  transform: scale(1.03);
+}
+
+.info-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  transition: transform 0.3s;
+}
+.info-card:hover {
+  transform: translateY(-10px);
+}
+.info-card h3 {
+  color: #e91e63;
+}
+
+.sucursal-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+.sucursal-card img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+.sucursal-card:hover {
+  transform: translateY(-10px);
+}
+.sucursal-card h2 {
+  color: #e91e63;
+}
+
+.info-card, .sucursal-card {
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+
+/*# sourceMappingURL=style.css.map */
