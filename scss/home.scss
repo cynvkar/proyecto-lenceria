@@ -60,3 +60,27 @@
     }
 
 }
+
+.catalogo-destacado {
+
+    h3 {
+        color: $color-principal;
+        margin-bottom: 20px;
+    }
+}
+
+.producto-card {
+
+    border: none;
+    overflow: hidden;
+    transition: transform 0.3s;
+
+    img {
+        height: 300px;
+        object-fit: cover;
+    }
+
+    &:hover {
+        transform: translateY(-10px);
+    }
+}

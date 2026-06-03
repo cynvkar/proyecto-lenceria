@@ -90,6 +90,24 @@ header .navbar a:hover {
     height: 250px;
   }
 }
+.catalogo-destacado h3 {
+  color: #e91e63;
+  margin-bottom: 20px;
+}
+
+.producto-card {
+  border: none;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+.producto-card img {
+  height: 300px;
+  object-fit: cover;
+}
+.producto-card:hover {
+  transform: translateY(-10px);
+}
+
 .section {
   padding: 40px;
 }
