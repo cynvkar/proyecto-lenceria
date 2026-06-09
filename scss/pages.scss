@@ -92,3 +92,46 @@
 %card-base {
     box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
 }
+
+.catalogo-productos {
+    h1 {
+        font-family: 'Playfair Display', serif;
+        font-size: 3.5rem;
+        color: $color-principal;
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+
+    .catalogo-texto {
+        font-family:'Poppins', sans-serif ;
+        font-size: 1.2rem;
+        color: #555;
+        margin-bottom: 30px;
+    }
+}  
+
+    h2 {
+        font-family: 'Playfair Display', serif;
+        font-size: 3rem;
+        color: $color-principal;
+        margin-bottom: 25px;
+        border-bottom: 2px solid $color-principal;
+        padding-bottom: 10px;
+    }
+
+.producto-card {
+
+    border: none;
+    overflow: hidden;
+    transition: all 0.3s ease;
+
+    &:hover {
+        transform: translateY(-10px);
+        box-shadow: 0px 10px 20px rgba(0,0,0,0.15);
+    }
+
+    img {
+        height: 350px;
+        object-fit: cover;
+    }
+}

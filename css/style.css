@@ -2,11 +2,21 @@ header {
   background-color: #e91e63;
 }
 header .navbar a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
   color: white;
   margin: 0 10px;
 }
 header .navbar a:hover {
   color: black;
+}
+header .navbar-brand {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
 }
 
 .footer {
@@ -50,14 +60,17 @@ header .navbar a:hover {
   background-color: pink;
 }
 .hero h1 {
-  font-size: 2.5rem;
+  font-family: "Playfair Display", serif;
+  font-size: 4rem;
+  font-weight: 700;
   color: #e91e63;
 }
 .hero:hover {
   transform: scale(1.05);
 }
 .hero p {
-  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.3rem;
 }
 
 .producto-card {
@@ -89,6 +102,11 @@ header .navbar a:hover {
   .carousel-img {
     height: 250px;
   }
+}
+.catalogo-destacado h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+  color: #e91e63;
 }
 .catalogo-destacado h3 {
   color: #e91e63;
@@ -178,8 +196,45 @@ header .navbar a:hover {
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
 }
 
+.catalogo-productos h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 3.5rem;
+  color: #e91e63;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.catalogo-productos .catalogo-texto {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+  color: #e91e63;
+  margin-bottom: 25px;
+  border-bottom: 2px solid #e91e63;
+  padding-bottom: 10px;
+}
+
+.producto-card {
+  border: none;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+.producto-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+}
+.producto-card img {
+  height: 350px;
+  object-fit: cover;
+}
+
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Poppins", sans-serif;
   background-color: #f8f8f8;
 }
 

@@ -5,15 +5,19 @@
     background-color: pink;
 
     h1{
-        font-size: 2.5rem;
+        font-family: 'Playfair Display', serif;
+        font-size: 4rem;
+        font-weight: 700;
         color:$color-principal;
     }
 
     &:hover{
         transform: scale(1.05);
     }
+
     p {
-        font-size: 1.2rem;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.3rem;
     }
 
 }
@@ -63,6 +67,11 @@
 
 .catalogo-destacado {
 
+    h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    color: $color-principal;
+}
     h3 {
         color: $color-principal;
         margin-bottom: 20px;
