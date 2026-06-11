@@ -20,109 +20,77 @@
 <header>
     <nav class="navbar navbar-expand-lg">
         <div class="container">
+            <a class="navbar-brand" href="../index.html">OK Lencería</a>
 
-            <a class="navbar-brand" href="../index.html"> OK Lencería</a>
-
-            <button 
-                class="navbar-toggler" 
-                type="button" 
-                data-bs-toggle="collapse" 
-                data-bs-target="#navbarNav"
-                aria-controls="navbarNav"
-                aria-expanded="false"
-                aria-label="Abrir menú de navegación"
-            >
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-
                     <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
                     <li class="nav-item"><a class="nav-link" href="productos.html">Productos</a></li>
                     <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
                     <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
                     <li class="nav-item"><a class="nav-link" href="sucursales.html">Sucursales</a></li>
-
                 </ul>
             </div>
-
         </div>
     </nav>
 </header>
 
 <main class="container mt-5 mb-5">
 
-    <h1 class="text-center mb-4">Contacto</h1>
+    <section class="text-center mb-5">
+        <h1>Contacto</h1>
+        <p>Estamos para ayudarte y responder tus consultas.</p>
+    </section>
 
-    <div class="row justify-content-center">
+    <section class="row g-4 justify-content-center">
 
-        <div class="col-md-8">
-
-            <form class="formulario-contacto">
-
-                <!-- Nombre -->
-                <div class="mb-3">
-                    <label for="nombre" class="form-label">
-                        Nombre
-                    </label>
-
-                    <input 
-                        type="text"
-                        class="form-control"
-                        id="nombre"
-                        placeholder="Ingresá tu nombre"
-                    >
-                </div>
-
-                <!-- Email -->
-                <div class="mb-3">
-                    <label for="email" class="form-label">
-                        Email
-                    </label>
-
-                    <input 
-                        type="email"
-                        class="form-control"
-                        id="email"
-                        placeholder="nombre@email.com"
-                    >
-                </div>
-
-                <!-- Mensaje -->
-                <div class="mb-3">
-                    <label for="mensaje" class="form-label">
-                        Mensaje
-                    </label>
-
-                    <textarea 
-                        class="form-control"
-                        id="mensaje"
-                        rows="5"
-                        placeholder="Escribí tu mensaje">
-                    </textarea>
-                </div>
-
-                <!-- Botón -->
-                <button type="submit" class="btn btn-dark">
-                    Enviar
-                </button>
-
-            </form>
-
+        <div class="col-md-5">
+            <div class="info-card">
+                <h2>Información</h2>
+                <p><strong>Ubicación:</strong> San Bernardo - La Clotilde</p>
+                <p><strong>Instagram:</strong> @oklenceria</p>
+                <p><strong>Email:</strong> contacto@oklenceria.com</p>
+                <p><strong>Horario:</strong> Lunes a Sábado de 9 a 20 hs</p>
+            </div>
         </div>
 
-    </div>
+        <div class="col-md-7">
+            <form class="formulario-contacto">
+
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Ingresá tu nombre">
+                </div>
+
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="nombre@email.com">
+                </div>
+
+                <div class="mb-3">
+                    <label for="mensaje" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="mensaje" rows="5" placeholder="Escribí tu mensaje"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-dark">Enviar</button>
+
+            </form>
+        </div>
+
+    </section>
 
 </main>
-
 
 <footer class="footer">
     <div class="container">
         <div class="row text-center text-md-start">
 
             <div class="col-md-4">
-                <h3>Lencería</h3>
+                <h3>OK Lencería</h3>
                 <p>Diseños cómodos, modernos y elegantes.</p>
             </div>
 
@@ -140,20 +108,19 @@
             <div class="col-md-4">
                 <h3>Contacto</h3>
                 <p>San Bernardo - La Clotilde</p>
-                <p>Instagram: @lenceria</p>
+                <p>Instagram: @oklenceria</p>
             </div>
 
         </div>
 
         <p class="footer-copy text-center">
-            © 2026  OK Lencería. Todos los derechos reservados.
+            © 2026 OK Lencería. Todos los derechos reservados.
         </p>
     </div>
 </footer>
 
-
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    
+
 </body>
 
 </html>

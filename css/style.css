@@ -233,6 +233,23 @@ h2 {
   object-fit: cover;
 }
 
+.historia-nosotros {
+  max-width: 900px;
+  margin: 0 auto 50px;
+  text-align: center;
+}
+.historia-nosotros h1 {
+  font-family: "Playfair Display", serif;
+  color: #e91e63;
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+.historia-nosotros p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #333;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   background-color: #f8f8f8;
