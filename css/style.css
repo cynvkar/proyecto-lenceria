@@ -90,6 +90,13 @@ header .navbar-brand {
   .hero {
     padding: 20px;
   }
+  .hero h1 {
+    font-size: 2.8rem;
+    line-height: 1.1;
+  }
+  .hero p {
+    font-size: 1.1rem;
+  }
 }
 .carousel-img {
   height: 320px;
