@@ -154,3 +154,37 @@
         color: #333;
     }
 }
+.btn-llegar {
+    display: inline-block;
+    background-color: $color-principal;
+    color: white;
+    text-decoration: none;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: 0.3s;
+    margin-top: 15px;
+
+    &:hover {
+        background-color: black;
+        color: white;
+    }
+}
+.linea-titulo {
+    border: none;
+    height: 2px;
+    background-color: $color-principal;
+    width: 350px;
+    margin: 15px 0 25px 0;
+}
+@media (max-width: 768px) {
+
+    .historia-nosotros h1 {
+        font-size: 2.5rem;
+    }
+
+    .linea-titulo {
+        width: 250px;
+    }
+
+}

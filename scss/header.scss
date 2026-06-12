@@ -13,10 +13,16 @@ header{
         }
     }
     .navbar-brand {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 2rem;
-    font-weight: 700;
-    color:white;
+    display: flex;
+    align-items: center;
     text-decoration: none;
-} 
+}
+
+.logo-navbar {
+    height: 90px;
+    width: auto;
+    object-fit: contain;
+}
+    
+
 }
